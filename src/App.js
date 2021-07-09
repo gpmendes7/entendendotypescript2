@@ -1,10 +1,10 @@
 import './App.css'
-import ContadorValor from './componentes/ContadorValor'
+import Contador from './componentes/Contador'
 
 function App() {
   return (
     <div className="App">
-      <ContadorValor contador={111} />
+      <Contador valorInicial={9876} />
     </div>
   );
 }
